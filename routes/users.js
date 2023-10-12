@@ -1,7 +1,6 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/google')
-
-const userSchema =mongoose.Schema({
+mongoose.connect('mongodb+srv://deepak:kuchbhipassword@cluster0.5nkuyno.mongodb.net/?retryWrites=true&w=majority')
+const userSchema = mongoose.Schema({
   email: String,
   name: String
 })
